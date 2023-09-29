@@ -1,0 +1,49 @@
+.gallery-section {
+  .gallery-section-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    #gallery {
+      font-family: "Gabarito", cursive;
+      font-size: 16px;
+      text-transform: uppercase;
+      color: #cfaf6d;
+      letter-spacing: 5px;
+    }
+    #explore-collections {
+      font-family: "Playfair Display", serif;
+      font-size: 36px;
+      font-weight: 600;
+    }
+    .gallery-menu {
+      ul {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 40px;
+        li {
+          a {
+            font-family: "Gabarito", cursive;
+            color: #706a63;
+          }
+        }
+      }
+    }
+  }
+  .gallery {
+    .grid-container {
+      display: grid;
+      grid-template-columns: auto auto auto;
+
+      .grid-item {
+        a{
+            img{
+                max-width: 400px;
+                height: auto;
+            }
+        }
+      }
+    }
+  }
+}
