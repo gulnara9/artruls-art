@@ -1,0 +1,39 @@
+.about-muzex-section {
+  background-color: #eeede0;
+  padding:8%;
+  .about-text-image {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    .about-text {
+      line-height: 50px;
+
+      #about-muzex {
+        font-family: "Gabarito", cursive;
+        text-transform: uppercase;
+        color: #cfaf6d;
+      }
+      #modern-art-museum {
+        font-family: "Playfair Display", serif;
+        text-transform: capitalize;
+        font-size: 40px;
+        font-weight: 600;
+      }
+      #museum-about {
+        font-family: "Gabarito", cursive;
+        font-weight: 400;
+        max-width: 500px;
+        line-height: 24px;
+        margin: 36px 0;
+      }
+      .learn-more-button {
+        background-color: transparent;
+        border: 1px solid #cfaf6d;
+        font-family: "Gabarito", cursive;
+        font-weight: 400;
+        padding: 0 16px;
+      }
+    }
+  }
+}
